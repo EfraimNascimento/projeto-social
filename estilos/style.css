@@ -40,7 +40,10 @@ iframe#tela{
 }
 
 section#redes-sociais {
-    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
 }
 
 section#redes-sociais img{
